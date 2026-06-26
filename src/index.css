@@ -1,0 +1,113 @@
+@import 'tailwindcss';
+
+:root {
+  /* =======================
+     COLORS (base system)
+  ======================= */
+
+  --text: #6b6375;
+  --text-muted: #9a93a3;
+  --text-heading: #0b0710;
+
+  --bg: #ffffff;
+  --bg-soft: #f7f6f9;
+  --bg-elevated: #ffffff;
+
+  --border: #e5e4e7;
+  --border-strong: #cfcbd6;
+
+  /* Accent system */
+  --accent: #aa3bff;
+  --accent-hover: #932ee0;
+  --accent-soft: rgba(170, 59, 255, 0.1);
+  --accent-border: rgba(170, 59, 255, 0.5);
+
+  /* Semantic colors */
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --info: #3b82f6;
+
+  /* Code / special UI */
+  --code-bg: #f4f3ec;
+  --selection: rgba(170, 59, 255, 0.25);
+
+  /* Surfaces */
+  --card: #ffffff;
+  --card-hover: #f9f8fb;
+
+  --social-bg: rgba(244, 243, 236, 0.5);
+
+  /* =======================
+     TYPOGRAPHY
+  ======================= */
+
+  --font-sans: system-ui, 'Segoe UI', Roboto, Arial, sans-serif;
+  --font-heading: system-ui, 'Segoe UI', Roboto, Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* Font sizes (simple scale) */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-md: 16px;
+  --text-lg: 18px;
+  --text-xl: 22px;
+  --text-2xl: 28px;
+  --text-3xl: 36px;
+
+  /* Line heights */
+  --lh-tight: 1.2;
+  --lh-normal: 1.5;
+  --lh-loose: 1.8;
+
+  /* =======================
+     SPACING SYSTEM (8px base)
+  ======================= */
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* =======================
+     RADIUS
+  ======================= */
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+
+  /* =======================
+     SHADOWS
+  ======================= */
+
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.06);
+  --shadow-md:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 20px 30px rgba(0, 0, 0, 0.12);
+
+  /* =======================
+     FONTS
+  ======================= */
+
+  --font-sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+
+  /* =======================
+     Z-INDEX SCALE
+  ======================= */
+
+  --z-base: 0;
+  --z-dropdown: 10;
+  --z-sticky: 20;
+  --z-modal: 50;
+  --z-toast: 100;
+}
