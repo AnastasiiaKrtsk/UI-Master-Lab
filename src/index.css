@@ -6,6 +6,7 @@
   ======================= */
 
   --text: #6b6375;
+  --text-btn: #e5e4e7;
   --text-muted: #9a93a3;
   --text-heading: #0b0710;
 
@@ -17,8 +18,8 @@
   --border-strong: #cfcbd6;
 
   /* Accent system */
-  --accent: #aa3bff;
-  --accent-hover: #932ee0;
+  --accent: #59148d;
+  --accent-hover: #7e3cb0;
   --accent-soft: rgba(170, 59, 255, 0.1);
   --accent-border: rgba(170, 59, 255, 0.5);
 
