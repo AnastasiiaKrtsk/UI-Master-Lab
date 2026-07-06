@@ -1,13 +1,18 @@
 import { createContext, useContext } from 'react';
 
-type ThemeContextType = 'light' | 'dark';
+type ThemeContextType = {
+  theme: 'light' | 'dark';
+  toggleTheme: () => void;
+};
+
+//?Context contains no state.
 export const ThemeContext = createContext<ThemeContextType | null>(null);
 
 //?also can create custom hook
 export function useContextCustom() {
-  const theme = useContext(ThemeContext);
-  if (!theme) {
+  const ctx = useContext(ThemeContext);
+  if (!ctx) {
     throw new Error('ThemeContext missing Provider');
   }
-  return theme;
+  return ctx;
 }
