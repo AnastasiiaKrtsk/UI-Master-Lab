@@ -92,8 +92,7 @@ export const CleanUpApp = () => {
     <>
       <h1 className="text-2xl mt-4">CleanUp</h1>
       <Button onClick={() => setShow(!show)}>Toggle Component</Button>
-
-      {show && <CleanUp />}
+      {show && <CleanUp />}//?UNMOUNTING
     </>
   );
 };

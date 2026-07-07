@@ -1,9 +1,9 @@
 import {
-  SetDependency,
-  NoDependency,
-  EmptyDependency,
   CleanUpApp,
-} from './effectBasics';
+  EmptyDependency,
+  NoDependency,
+  SetDependency,
+} from './EffectBasics';
 
 export const EffectHookApp = () => {
   return (
