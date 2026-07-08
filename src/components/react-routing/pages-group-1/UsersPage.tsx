@@ -17,7 +17,7 @@ export const UsersPage = ({ users }: UsersPageProps) => {
       >
         Back
       </Button>
-      <h1 className="text-2xl">UserPage</h1>
+      <h1>UserPage</h1>
 
       <div className="flex flex-col">
         <span>User name: {product?.name}</span>
