@@ -1,4 +1,4 @@
-import { AppLink } from '../../ui/AppNavLink';
+import { AppLink } from '../../ui/Links';
 
 export const GameLibHome = () => {
   return (

@@ -1,11 +1,11 @@
 import type { ReactNode } from 'react';
 
-type Props = {
+type ButtonProps = {
   children: ReactNode;
   onClick?: () => void;
 };
 
-export const Button = ({ children, onClick }: Props) => {
+export const Button = ({ children, onClick }: ButtonProps) => {
   return (
     <button
       className=" bg-violet-700 py-1 px-3 hover:bg-violet-600 hover:cursor-pointer rounded-sm"

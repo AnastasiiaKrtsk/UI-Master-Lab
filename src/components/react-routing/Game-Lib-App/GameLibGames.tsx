@@ -1,5 +1,5 @@
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import { AppLink, AppNavLink } from '../../ui/AppNavLink';
+import { AppLink, AppNavLink } from '../../ui/Links';
 import type { Game } from './GameLibApp';
 import { Button } from '../../ui/Button';
 

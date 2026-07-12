@@ -1,6 +1,6 @@
 import { Outlet, useParams } from 'react-router-dom';
 import type { Game } from './GameLibApp';
-import { AppNavLink } from '../../ui/AppNavLink';
+import { AppNavLink } from '../../ui/Links';
 import { NotFoundPage } from '../../layout/NotFoundPage';
 type GameLibItemProps = {
   games: Game[];

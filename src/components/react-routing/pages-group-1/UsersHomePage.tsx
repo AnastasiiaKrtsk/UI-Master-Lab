@@ -1,4 +1,4 @@
-import { AppLink } from '../../ui/AppNavLink';
+import { AppLink } from '../../ui/Links';
 import type { User } from './UsersApp';
 
 type UsersHomePageProps = {
